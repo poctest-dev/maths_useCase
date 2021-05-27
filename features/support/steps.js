@@ -17,6 +17,16 @@ When('I decrement the variable by {int}', function (number) {
   this.decrementBy(number);
   });
 
+  When('I multiply the variable by {int}', function (number) {
+    this.multiplyBy(number);
+});
+
+
+When('I divide the variable by {int}', function (number) {
+  this.divideBy(number);
+});
+
+
 
 Then("the variable should contain {int}", function (number) {
   assert.equal(this.variable, number);

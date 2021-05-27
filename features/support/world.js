@@ -16,6 +16,17 @@ class CustomWorld {
   decrementBy(number) {
     this.variable -= number ;
   }
+
+  multiplyBy(number)
+  {
+    this.variable *= number;
+  }
+
+  divideBy(number)
+  {
+    this.variable /= number;
+  }
+
 }
 
 setWorldConstructor(CustomWorld);
