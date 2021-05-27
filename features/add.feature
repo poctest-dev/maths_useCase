@@ -1,10 +1,7 @@
-Feature: Simple maths
-  In order to do maths
-  As a developer
-  I want to increment variables
+Feature: Perform addition
 
 
-  Scenario Outline: much more complex stuff
+  Scenario Outline: increment the variable
     Given a variable set to <var>
     When I increment the variable by <increment>
     Then the variable should contain <result>
